@@ -1,0 +1,10 @@
+{
+  "FolderOrderSettings":[
+    {"name":"objects","order":1,"path":"folders/objects.yy",},
+    {"name":"tile sets","order":2,"path":"folders/tile sets.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"obj_enemy_1","order":2,"path":"objects/obj_enemy_1/obj_enemy_1.yy",},
+    {"name":"obj_enemy_parent","order":1,"path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},
+  ],
+}
