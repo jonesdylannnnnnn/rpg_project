@@ -4,7 +4,15 @@ if (alarm[1] >= 0)
     target_y = y + kb_y
 }
 
-var _hor = clamp(target_x - x, -1, 1);
-var _ver = clamp(target_y - y, -1, 1);
+var _enemyhor = clamp(target_x - x, -1, 1);
+var _enemyver = clamp(target_y - y, -1, 1);
 
-move_and_collide(_hor * move_speed, _ver *move_speed, [tilemap, obj_enemy_parent]);
+move_and_collide(_enemyhor * enemy_move_speed, _enemyver * enemy_move_speed, [tilemap, obj_enemy_parent], undefined, undefined, undefined, enemy_move_speed, enemy_move_speed);
+
+if (_enemyhor != 0 or _enemyver != 0)
+{
+    if (_enemyver > 0.1) sprite_index = New_Piskel__14_;
+    else if (_enemyver < -0.1) sprite_index = New_Piskel__15_;
+    else if (_enemyhor > 0) sprite_index = New_Piskel__16_; 
+    else if (_enemyhor < -0) sprite_index = New_Piskel__17_;
+}
