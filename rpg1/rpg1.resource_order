@@ -1,8 +1,8 @@
 {
   "FolderOrderSettings":[
     {"name":"fonts","order":3,"path":"folders/fonts.yy",},
-    {"name":"script","order":4,"path":"folders/script.yy",},
     {"name":"objects","order":1,"path":"folders/objects.yy",},
+    {"name":"script","order":4,"path":"folders/script.yy",},
     {"name":"tile sets","order":2,"path":"folders/tile sets.yy",},
   ],
   "ResourceOrderSettings":[

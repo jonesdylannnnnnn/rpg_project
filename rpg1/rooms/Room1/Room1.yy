@@ -27,10 +27,10 @@
     {"name":"inst_79509608","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_57AFD0CB","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_13888F7A","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_4A7C2060","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_6B1307BE","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_C468052","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_554E33D3","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_4A7C2060","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
