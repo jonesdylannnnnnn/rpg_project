@@ -28,3 +28,14 @@ if (keyboard_check_pressed(ord("E")))
     _inst.image_angle = facing;
     _inst.damage *= damage;
 }
+
+if(mouse_check_button_pressed(mb_left))
+{
+    if (can_shoot and projectile_ammo > 0)
+    {
+        var _projectile = instance_create_depth(x,y,0,obj_projectile);
+        can_shoot = false;
+        projectile_ammo -= 1;
+        alarm[1] = 20;
+    }
+}
