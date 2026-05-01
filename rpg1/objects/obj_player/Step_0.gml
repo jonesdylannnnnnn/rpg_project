@@ -31,11 +31,23 @@ if (keyboard_check_pressed(ord("E")))
 
 if(mouse_check_button_pressed(mb_left))
 {
-    if (can_shoot and projectile_ammo > 0)
+    if (can_shoot and usable_ammo > 0)
     {
         var _projectile = instance_create_depth(x,y,0,obj_projectile);
         can_shoot = false;
-        projectile_ammo -= 1;
+        usable_ammo -= 1;
         alarm[1] = 20;
+    }
+}
+
+if keyboard_check_pressed(ord("R"))
+{
+    if (usable_ammo < 10)
+    {
+        while (projectile_ammo > 0 and usable_ammo < 10)
+        {
+            usable_ammo += 1;
+            projectile_ammo -= 1;
+        }
     }
 }
