@@ -1,1 +1,0 @@
-draw_sprite_ext(spr_transition_fade, 0,0,0, 1366, 768, 0, c_white, image_alpha);
