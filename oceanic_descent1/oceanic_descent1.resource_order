@@ -1,5 +1,5 @@
 {
-  "FolderOrderSettings":[
+  "FolderOrderSettings": [
     {"name":"background | background assets","order":6,"path":"folders/background | background assets.yy",},
     {"name":"fonts","order":7,"path":"folders/fonts.yy",},
     {"name":"objects","order":2,"path":"folders/objects.yy",},
@@ -10,7 +10,7 @@
     {"name":"tile sets","order":3,"path":"folders/tile sets.yy",},
     {"name":"transitions","order":5,"path":"folders/transitions.yy",},
   ],
-  "ResourceOrderSettings":[
+  "ResourceOrderSettings": [
     {"name":"Font2","order":1,"path":"fonts/Font2/Font2.yy",},
     {"name":"bt__credits","order":3,"path":"objects/bt__credits/bt__credits.yy",},
     {"name":"bt__quit","order":2,"path":"objects/bt__quit/bt__quit.yy",},
