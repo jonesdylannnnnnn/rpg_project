@@ -8,7 +8,7 @@ damage = 1;
 facing = 0;
 can_shoot = true;
 projectile_ammo = 10;
-usable_ammo = 4;
+usable_ammo = 4
 
 level = 1;
 xp = 0;

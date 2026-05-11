@@ -24,8 +24,8 @@ else
 
 if (mouse_check_button(mb_right))
 {
-    move_speed = 0.3;
-    cursor_sprite = spr_aim;
+    cursor_sprite = spr_aim1;
+    move_speed = 0.3;    
     if (keyboard_check_pressed(ord("E")))
     {
         var _inst = instance_create_depth(x, y, depth, obj_attack);
@@ -46,7 +46,7 @@ if (mouse_check_button(mb_right))
 }
 else {
 	move_speed = 1;
-    cursor_sprite = spr_cursor;
+    cursor_sprite = spr_cursor
 }
 
 if keyboard_check_pressed(ord("R")) {
@@ -57,3 +57,5 @@ if keyboard_check_pressed(ord("R")) {
         }
     }
 }
+
+// 84g
